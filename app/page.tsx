@@ -117,6 +117,13 @@ export default function Home() {
           <p className="text-gray-600 text-lg">
             Access all demo applications from this central hub
           </p>
+          
+          {/* Demo Notice */}
+          <div className="mt-4 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+            <p className="text-amber-800 text-sm font-medium">
+              ⚠️ These are demo applications only - no backend connections are active yet
+            </p>
+          </div>
         </div>
       </div>
 
