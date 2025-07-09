@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "9097:9097"
+    restart: unless-stopped 
