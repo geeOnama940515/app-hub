@@ -66,10 +66,10 @@ const AppCard = ({ title, description, url, icon, category }: AppCardProps) => {
 
 export default function Home() {
   const apps: AppCardProps[] = [
-    {
-      title: "Petty Cash Voucher System",
-      description: "Manage petty cash vouchers and expense tracking",
-      url: "https://pcv.gregdoesdev.xyz",
+    
+      title: "Document Tracking System",
+      description: "Document tracking system",
+      url: "https://docs.gregdoesdev.xyz/login",
       icon: <CreditCard className="w-5 h-5" />,
       category: "Finance"
     },
