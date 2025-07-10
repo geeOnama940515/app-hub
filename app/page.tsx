@@ -66,7 +66,7 @@ const AppCard = ({ title, description, url, icon, category }: AppCardProps) => {
 
 export default function Home() {
   const apps: AppCardProps[] = [
-    
+    {
       title: "Document Tracking System",
       description: "Document tracking system",
       url: "https://docs.gregdoesdev.xyz/login",
