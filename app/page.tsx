@@ -100,6 +100,13 @@ export default function Home() {
       url: "https://asset-tracking.gregdoesdev.xyz",
       icon: <Monitor className="w-5 h-5" />,
       category: "Asset Management"
+    },
+        {
+      title: "Barangay Information System",
+      description: "Barangay Information System",
+      url: "https://barangay.gregdoesdev.xyz",
+      icon: <Monitor className="w-5 h-5" />,
+      category: "Asset Management"
     }
   ];
 
